@@ -49,7 +49,7 @@ class APIServer {
 
   // Set CORS headers
   setCORSHeaders(res) {
-    res.setHeader('Access-Control-Allow-Origin', '*'); // For testing purposes only. Specify origin in production.
+    res.setHeader('Access-Control-Allow-Origin', 'https://blue-tree-06fe9bb0f.5.azurestaticapps.net'); // For testing purposes only. Specify origin in production.
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   }
