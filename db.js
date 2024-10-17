@@ -11,11 +11,11 @@ class Database {
   async init() {
     try {
       this.connection = await mysql.createConnection({
-        host: 'mysql-comp4537lab5origin2-26158.nodechef.com',            // Database host
-        user: 'ncuser_14339',                 // Replace with your database username
-        password: 'nOwkmr8fab9X3Zbfks1N1DnY1h4es2',         // Replace with your database password
-        database: 'comp4537lab5origin2',      // Database name
-        port: 2409,  
+        host: 'mysql-lab5origin2-26158.nodechef.com',            // Database host
+        user: 'ncuser_3406',                 // Replace with your database username
+        password: 'TqlfM2QROWbjLupGq5tVtnAGbV86Qg',         // Replace with your database password
+        database: 'lab5origin2',      // Database name
+        port: 2458,  
         multipleStatements: true      // Allow execution of multiple SQL statements
       });
       console.log('Connected to the MySQL database.');
