@@ -16,7 +16,7 @@ class Database {
         password: 'TqlfM2QROWbjLupGq5tVtnAGbV86Qg',         // Replace with your database password
         database: 'lab5origin2',      // Database name
         port: 2458,  
-        multipleStatements: false      // Allow execution of multiple SQL statements
+        multipleStatements: true      // Allow execution of multiple SQL statements
       });
       console.log('Connected to the MySQL database.');
 
